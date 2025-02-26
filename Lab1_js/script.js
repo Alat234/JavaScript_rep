@@ -45,14 +45,19 @@ function triangle(value1, type1, value2, type2) {
             c = value1;
         }
 
-        if (c < a) {
+        if (c <= a) {
             console.log("incorrect value. hypotenuse < leg");
             return "failed";
         }
+       
 
         b = Math.sqrt(c * c - a * a);
         alpha = (Math.asin(a / c) * 180) / Math.PI;
         beta = (Math.asin(b / c) * 180) / Math.PI;
+        if(beta==0||alpha==0||beta==90||alpha==90 ){
+            console.log("incorrect value of sides");
+            return "failed";
+        }
         Print();
         return "success"
 
@@ -63,6 +68,11 @@ function triangle(value1, type1, value2, type2) {
         c = Math.sqrt(a * a + b * b);
         alpha = (Math.asin(a / c) * 180) / Math.PI;
         beta = (Math.asin(b / c) * 180) / Math.PI;
+        
+        if(beta==0||alpha==0||beta==90||alpha==90 ){
+            console.log("incorrect value of sides");
+            return "failed";
+        }
         Print();
         return "success";
 
@@ -138,6 +148,7 @@ function triangle(value1, type1, value2, type2) {
     }
 
     function Print() {
+        
         console.log("a ="+a);
         console.log("b ="+b);
         console.log("c ="+c);
@@ -145,5 +156,3 @@ function triangle(value1, type1, value2, type2) {
         console.log("beta =" +beta);
     }
 }
-
- 
