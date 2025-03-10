@@ -268,6 +268,6 @@ let obj3 = {
     color: "purple",
     isCar: true
 };
-PaintBlue(obj1);  // Очікувано: "Blue: Sportcar"
-PaintRed(obj2);   // Очікувано: "Red: Truck"
-PaintYellow(obj3); // Очікувано: "No 'type' property occurred!"
+PaintBlue(obj1);  
+PaintRed(obj2);   
+PaintYellow(obj3); 
