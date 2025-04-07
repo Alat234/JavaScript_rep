@@ -227,7 +227,6 @@
     window.SortArr = SortArr;
 })(window);
 
-я
 let arr = Array.from({ length: 100 }, () => Math.floor(Math.random() * 100));
 arr[10] = undefined;
 arr[50] = undefined;
