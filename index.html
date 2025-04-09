@@ -1,17 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    
+	<meta charset="utf-8">
+	<title>My application</title>
+	<style>
+		
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		-height: 100vh; 
+			margin: 0;
+			background-color: #f0f0f0; 
+			font-family: Arial, sans-serif;
+		}
+
+		
+		.container {
+			text-align: center;
+		}
+
+		.container div {
+			margin: 15px 0; 
+		}
+
+		a {
+			text-decoration: none; 
+			font-size: 20px; 
+			color: #ffffff; 
+			background-color: #007BFF; 
+			padding: 10px 20px; 
+			border-radius: 5px; 
+			display: inline-block; 
+			transition: background-color 0.3s; 
+		}
+
+		
+		a:hover {
+			background-color: #0056b3; 
+		}
+	</style>
 </head>
 <body>
-    <h1>Heloo</h1>
-    <script src="Lab4_js/script.js"></script>
-	
-   
-    
+	<div class="container">
+		<div>
+			<a href="Lab1_js/lab1.html">1 лабараторна</a>
+		</div>
+		<div>
+			<a href="Lab2_js/lab2.html">2 лабараторна</a>
+		</div>
+		<div>
+			<a href="Lab3_js/lab3.html">3 лабараторна</a>
+		</div>
+		<div>
+			<a href="Lab4_js/lab4.html">4 лабараторна</a>
+		</div>
+	</div>
 </body>
-
-
-
 </html>
