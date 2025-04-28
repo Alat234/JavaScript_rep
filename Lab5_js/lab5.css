@@ -1,0 +1,22 @@
+.game-container {
+    text-align: center;
+}
+#square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    cursor: pointer;
+}
+#GameField {
+    width: 100%; 
+    height: calc(100vh - 100px);
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+}
