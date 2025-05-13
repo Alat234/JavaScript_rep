@@ -5,6 +5,10 @@ header {
     padding: 10px;
     text-align: center;
 }
+#MenuBar   {
+    display: flex;
+    gap: 10px;
+}
 
 #GameSector{
 

@@ -11,11 +11,13 @@
 </header>
 <div id="GameSector">
 
- <div id="gameField">
-
- </div>
-    <button id="NewGameBut">New Game</button>
-    <button id="RestartBut">Restart level</button>
+ <div id="gameField"></div>
+    <div id="MenuBar">
+    <button id="NewGameBut" onclick=" LightsOutGame.StartNewGame()">New Game</button>
+    <button id="RestartBut" onclick=" LightsOutGame.restartGame()">Restart level</button>
+    <div id="Move">Move: 0</div>
+        <div id="Timer">Timer: 0</div>
+    </div>
 </div>
 
 
