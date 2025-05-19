@@ -1,0 +1,117 @@
+.content_item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.2s;
+}
+
+.content_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.content_item image {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+
+}
+
+.content_item h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.content_item p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+}
+
+.content_item p:last-child {
+    font-weight: bold;
+    color: #2e7d32; /
+}
+header {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+#HomeButton{
+    padding: 10px;
+    transition: transform 0.2s;
+}
+#HomeButton :hover{
+    transform: translateY(-5px);
+
+
+}
+#ShowCatalogBut {
+    padding: 10px 20px; /* Збільшені відступи для зручності */
+    background-color: #4CAF50; /* Приємний зелений колір */
+    color: white; /* Білий текст */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закруглені кути */
+    cursor: pointer; /* Курсор "рука" */
+    font-size: 16px; /* Розмір шрифту */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    transition: all 0.3s ease; /* Плавний перехід */
+}
+
+#ShowCatalogBut:hover {
+    background-color: #45a049; /* Темніший зелений при наведенні */
+    transform: translateY(-2px); /* Легке підняття */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Посилена тінь */
+}
+
+#ShowCatalogBut:disabled {
+    background-color: #cccccc; /* Сірий колір при блокуванні */
+    cursor: not-allowed; /* Курсор "заборонено" */
+    transform: none; /* Без підняття */
+    box-shadow: none; /* Без тіні */
+}
+
+.category  {
+    display: inline-block; /
+    padding: 10px;
+    margin: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.category:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /
+}
+
+#Catalog {
+    padding: 10px; /* Відступи для контейнера */
+    background-color: #fff; /* Білий фон контейнера */
+}
+#categoryHeader{
+    display: inline-flex;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+}

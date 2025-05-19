@@ -36,7 +36,7 @@
             row.className = "row";
             for (let j = 0; j < this.matrix[i].length; j++) {
                 let cell = document.createElement("div");
-                cell.onclick = () => this.ChangeColor(i, j); // Змінено на стрілкову функцію
+                cell.onclick = () => this.ChangeColor(i, j);
                 cell.className = "cell";
                 cell.id = "cell" + i + j;
                 if (this.matrix[i][j] === 1) {
@@ -65,7 +65,6 @@
             [0, 0], [-1, 0], [1, 0], [0, -1], [0, 1]
         ];
 
-        let currentCell = document.getElementById("cell" + i + j);
 
         directions.forEach(([di, dj]) => {
             const newI = i + di;

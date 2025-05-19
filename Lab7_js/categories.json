@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Спортивний одяг",
+    "shortname": "sports-clothing",
+    "notes": "Високоякісний одяг для активного способу життя"
+  },
+  {
+    "id": 2,
+    "name": "Креатин",
+    "shortname": "creatine",
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Протеїнові батончики",
+    "shortname": "protein-bars",
+    "notes": "Lorem ipsum "
+  },
+  {
+    "id": 4,
+    "name": "Протеїн",
+    "shortname": "protein",
+    "notes": "Сироваткові та казеїнові протеїни для набору м’язової маси"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "categoryName": "Протеїнові батончики",
+  "items": [
+    {
+      "id": 1,
+      "name": "Quest Nutrition Protein Bar, Chocolate Chip Cookie Dough",
+      "shortname": "quest-chocolate-chip",
+      "description": "Протеїновий батончик зі смаком печива з шоколадною крихтою, 20 г білка.",
+      "price": 99.99
+    },
+    {
+      "id": 2,
+      "name": "MyProtein Impact Protein Bar, Caramel Nut",
+      "shortname": "myprotein-caramel-nut",
+      "description": "Смачний батончик з карамельно-горіховим смаком, 18 г білка.",
+      "price": 79.99
+    },
+    {
+      "id": 3,
+      "name": "Grenade Carb Killa, White Chocolate Cookie",
+      "shortname": "grenade-white-choco",
+      "description": "Високобілковий батончик з білим шоколадом, низький вміст цукру, 21 г білка.",
+      "price": 89.99
+    },
+    {
+      "id": 4,
+      "name": "Optimum Nutrition Protein Bar, Chocolate Peanut Butter",
+      "shortname": "optimum-choco-peanut",
+      "description": "Батончик з арахісовим маслом і шоколадом, 20 г білка.",
+      "price": 95.99
+    }
+  ]
+}

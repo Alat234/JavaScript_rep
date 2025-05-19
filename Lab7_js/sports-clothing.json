@@ -1,0 +1,40 @@
+{
+  "categoryName": "Спортивний одяг",
+  "items": [
+    {
+      "id": 1,
+      "name": "Чоловіча футболка Nike Pro",
+      "shortname": "nike-pro-tshirt",
+      "description": "Легка дихаюча футболка для інтенсивних тренувань. Технологія Dri-FIT.",
+      "price": 1299.99
+    },
+    {
+      "id": 2,
+      "name": "Жіночі легінси Adidas Performance",
+      "shortname": "adidas-leggings",
+      "description": "Еластичні легінси з компресійним ефектом для бігу та фітнесу.",
+      "price": 1799.99
+    },
+    {
+      "id": 3,
+      "name": "Кросівки Under Armour HOVR",
+      "shortname": "ua-hovr-shoes",
+      "description": "Амортизуючі кросівки для бігу з підтримкою стопи.",
+      "price": 3499.99
+    },
+    {
+      "id": 4,
+      "name": "Спортивна куртка Puma Essential",
+      "shortname": "puma-jacket",
+      "description": "Вітрозахисна куртка для тренувань на відкритому повітрі.",
+      "price": 2199.99
+    },
+    {
+      "id": 5,
+      "name": "Шорти Asics Core",
+      "shortname": "asics-shorts",
+      "description": "Зручні шорти для занять спортом із сітчастою підкладкою.",
+      "price": 999.99
+    }
+  ]
+}

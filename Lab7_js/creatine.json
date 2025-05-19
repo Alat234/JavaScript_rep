@@ -1,0 +1,40 @@
+{
+  "categoryName": "Креатин",
+  "items": [
+    {
+      "id": 1,
+      "name": "Mutant Creakong, 300 g",
+      "shortname": "mutant-creakong",
+      "description": "Матриця з трьох видів креатину для підвищення сили та витривалості. Виробник: Mutant, Канада.",
+      "price": 569.00
+    },
+    {
+      "id": 2,
+      "name": "Scitec Nutrition Crea-Bomb, 660 g",
+      "shortname": "scitec-crea-bomb",
+      "description": "Багатокомпонентна креатинова матриця з 6 видами креатину. Виробник: Scitec Nutrition, Угорщина.",
+      "price": 1149.00
+    },
+    {
+      "id": 3,
+      "name": "Ultimate Nutrition Creatine Monohydrate, 300 g",
+      "shortname": "ultimate-creatine",
+      "description": "Чистий мікронізований креатин моногідрат преміум якості. Виробник: Ultimate Nutrition, США.",
+      "price": 699.00
+    },
+    {
+      "id": 4,
+      "name": "Optimum Nutrition Micronized Creatine Powder, 300 g",
+      "shortname": "optimum-creatine",
+      "description": "Чистий креатин моногідрат преміум якості для набору м’язової маси. Виробник: Optimum Nutrition, США.",
+      "price": 1019.00
+    },
+    {
+      "id": 5,
+      "name": "Nutrend Creatine Monohydrate Creapure, 500 g",
+      "shortname": "nutrend-creapure",
+      "description": "Моногідрат креатину в чистій формі Creapure. Виробник: Nutrend, Чехія.",
+      "price": 1399.00
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "categoryName": "Протеїн",
+  "items": [
+    {
+      "id": 1,
+      "name": "Shadowhey Hydrolysate 2270 грамів",
+      "shortname": "shadowhey-hydro",
+      "description": "Гідролізований ізолят сироваткового протеїну та ізолят сироваткового протеїну.",
+      "price": 599.99
+    },
+    {
+      "id": 2,
+      "name": "Mex Nutrition, American Standard Whey 2270 g",
+      "smallname": "mex-whey",
+      "description": "Містить 71-72% білка на 100 грамів продукту, збагачений амінокислотами.",
+      "price": 999.99
+    },
+    {
+      "id": 3,
+      "name": "Rule1, R1 Casein, 924 g",
+      "shortname": "rule1-casein",
+      "description": "Казеїн від американського виробника спортивного харчування Rule One Proteins",
+      "price": 99.99
+    },
+    {
+      "id": 4,
+      "name": "Nutrend, Whey Core, 900 g",
+      "shortname": "nutrend-whey",
+      "description": "Сироватковий протеїн концентрат",
+      "price": 399.99
+    }
+  ]
+}
