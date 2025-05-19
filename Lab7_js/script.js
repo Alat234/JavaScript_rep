@@ -41,6 +41,20 @@
                     catalog.appendChild(content);
 
                 });
+                let specials = document.createElement("div");
+                specials.innerHTML = "Specials";
+                specials.setAttribute("class", "category");
+                specials.setAttribute("data-id", "specials");
+                specials.addEventListener("click", async () => {
+                    try {
+                        const randomIndex = Math.floor(Math.random() *  categoryList.length);
+                        const randomCategory = categoryList[randomIndex];
+                        LoadContent(randomCategory.shortname);
+                    } catch (error) {
+                        document.getElementById("ContentContainer").innerHTML = "Помилка завантаження Specials";
+                    }
+                });
+                catalog.appendChild(specials);
 
                 isCategoriesVisible = true;
             }
